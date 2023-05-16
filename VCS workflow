@@ -1,0 +1,20 @@
+VCS workflow
+
+create new repo on github
+--- pushing files from local
+git remote set-url origin YOUR_REMOTE
+git add .
+git commit -m "Remove cloud block"
+git push
+
+
+--- update configuration
+
+git checkout -b new_branch_name
+git add .
+git commit -m "Add comment"
+git push -u origin new_branch_name
+
+create pull request and merge request
+
+Run will auto start
